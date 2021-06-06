@@ -1,4 +1,18 @@
 {
+  "currentUser": {
+      "id": 80251,
+      "name": "Tomas"
+  },
+  "user": [
+    {
+      "id": 80251,
+      "name": "Tomas"
+    },
+    {
+      "id": 80252,
+      "name": "Daffy"
+    }
+  ],
   "posts": [
     {
       "id": 1,
@@ -15,5 +29,16 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "todos": [
+    {
+      "id": 1,
+      "plan": "plan1",
+      "summary": "create new Angualr project",
+      "status": "OPEN",
+      "tag": ["main"],
+      "assignee": [80251],
+      "dueDate": "none"
+    }
+  ]
 }
